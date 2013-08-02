@@ -1,3 +1,4 @@
-baseurl:        ''
-timezone:       America/New_York
-layouts:        ./_layouts
+baseurl:    ''
+timezone:   America/New_York
+layouts:    ./_layouts
+markdown:   redcarpet

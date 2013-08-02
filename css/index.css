@@ -1,10 +1,15 @@
 body {
     font-size:          120%;
+    font-family:        "Droid Serif", serif;
     margin:             1em;
 }
 
+tt {
+    font-family:        "Droid Sans Mono", monospace;
+}
+
 .title {
-    font-family:        sans-serif;
+    font-family:        "Source Sans Pro", sans-serif;    
     font-size:          200%;
     font-weight:        bold;
     color:              #56A0D3;
@@ -24,6 +29,7 @@ body {
 }
 
 #blog-posts-list-item .blog-post-title {
+    font-family:        "Source Sans Pro", sans-serif;    
     margin-top:         .5em;
     font-weight:        bold;
 }
@@ -56,6 +62,7 @@ ul.nodot {
     background-color:   #FFD;
     border-radius:      10px;
     border:             thin solid black;
+    overflow:           auto;
 }
 
 a, a:visited, a:link, a:active {
@@ -73,7 +80,6 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-    xmargin-top:         0.2em;
     margin-bottom:      0;
-    font-family:        sans-serif;
+    font-family:        "Source Sans Pro", sans-serif;    
 }
