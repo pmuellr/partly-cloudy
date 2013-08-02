@@ -7,11 +7,13 @@ title:  home
 <h2>blog posts</h2>
 {% for post in site.posts %}
 <div id="blog-posts-list-item">
+<!--    
     <span class="blog-post-date">{{ post.date | date_to_string }}</span>
-    &mdash; 
-    <span class="blog-post-title">
+-->
+    <div class="blog-post-title">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </span>
+    </div>
+    <div class="blog-post-date">{{ post.date | date: "%A, %B %d %Y" }}</div>
 </div>
 {% endfor %}
 
