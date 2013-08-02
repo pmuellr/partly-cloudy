@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="title"><a href="{{ site.baseurl}}/index.html">partly cloudy</a></div>
+    <div class="title"><a href="{{ site.baseurl}}/">partly cloudy</a></div>
     <div class="subtitle">by Patrick Mueller</div>
     <hr style="clear:both">
 
@@ -24,9 +24,17 @@
   
     <div class="footer">
         <hr>
-        <div style="float:right"><a href="{{ site.baseurl }}/atom.xml"><img src="{{ site.baseurl}}/images/rss.png" width="32" alt="Atom Feed"></a></div>
-        <a href="{{ site.baseurl}}/index.html">index of this site</a>
-        <br>moar incredible junk available at <a href="http://muellerware.org">http://muellerware.org</a>
+        <a id="rss-icon" href="{{ site.baseurl }}/atom.xml">
+            <img src="{{ site.baseurl}}/images/rss.png" width="32" alt="Atom Feed">
+        </a>
+
+        <p><a href="{{ site.baseurl}}/">index of this site</a>
+        
+        <p>moar incredible junk available at 
+            <a href="http://muellerware.org">http://muellerware.org</a>
+        
+        <p>source for this site 
+            <a href="https://github.com/pmuellr/partly-cloudy/tree/gh-pages">here</a>
         </div>
     </div>
 </body>

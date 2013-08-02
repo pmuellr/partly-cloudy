@@ -6,14 +6,18 @@ title:  home
 
 <h2>blog posts</h2>
 {% for post in site.posts %}
-<div>
-    <tt>{{ post.date | date_to_string }}</tt>
+<div id="blog-posts-list-item">
+    <span class="blog-post-date">{{ post.date | date_to_string }}</span>
     &mdash; 
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <span class="blog-post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </span>
 </div>
 {% endfor %}
 
+<!--
 <h2>other bits</h2>
 <div>
     <a href="pages/extra-file.html">extra file</a>
 </div>
+-->
