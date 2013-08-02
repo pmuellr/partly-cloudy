@@ -23,7 +23,7 @@ tt {
 }
 
 #blog-posts-list-item .blog-post-date {
-    font-size:          80%;
+    font-size:          70%;
     font-style:         italic;
     margin-left:        2em;
 }
@@ -40,12 +40,13 @@ tt {
 
 .page-date {
     font-style:         italic;
-    font-size:          80%;
+    font-size:          70%;
     margin-left:        2em;
 }
 
 .footer {
     margin-top:         2em;
+    font-size:          70%;
 }
 
 .footer p {
