@@ -1,21 +1,19 @@
 ---
-layout: default
+layout: home
 title:  home
+
 ---
 
 <h2>blog posts</h2>
-<ul class="nodot">
-    {% for post in site.posts %}
-        <li>
-            <span>
-                <tt>{{ post.date | date_to_string }}</tt>
-            </span> 
-            &mdash; 
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
-</ul>
+{% for post in site.posts %}
+<div>
+    <tt>{{ post.date | date_to_string }}</tt>
+    &mdash; 
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+</div>
+{% endfor %}
 
 <h2>other bits</h2>
-<ul class="nodot">
-    <li><a href="pages/extra-file.html">extra file</a>
-</ul>
+<div>
+    <a href="pages/extra-file.html">extra file</a>
+</div>
