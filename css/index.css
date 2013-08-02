@@ -66,6 +66,14 @@ ul.nodot {
     overflow:           auto;
 }
 
+#disclaimer-text {
+    margin:             1em;
+    padding:            0 0.5em;
+    background-color:   #FFD;
+    border-radius:      10px;
+    border:             thin solid black;
+}
+
 a, a:visited, a:link, a:active {
     text-decoration:    none;
     color:              #56A0D3;
